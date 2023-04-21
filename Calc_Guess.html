@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+                            <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+
+                          <!-- Number guess game -->                 
+    
+                          
+   <div class="container">
+       
+
+      <div  class="result">
+          <h2>Guess number game</h2>
+      </div>     
+      
+       <h2>The Computer is thinking of a number between  <span class="coltext">1</span> and  <span class="coltext">30</span></h2>
+       <h2>Can you guess it in 5 attempts?</h2>
+       <div  class="result">
+  
+        <h2 id="output1" type="text" onclick="clear_msg()   "></h2> 
+     </div>
+
+       <input type="text" placeholder="Num" id="guess"><br>
+       <button class="button_g" onclick="guess()" id="my_btn">GUESS</button>
+  
+       <p id="message1">№ of Attempts: 0</p>
+       <p id="message2">Guessed Numbers are: None</p>
+       <p id="message3"class="coltext"></p>
+
+       <button class="button_p" onclick="play_again() " id="my_btn">Play again</button>
+      
+   </div>
+  
+                   <!-- Game end! -->
+
+                   <!--Script-->
+   <script src="main.js"></script>
+   
+   <script type="text/javascript"></script>
+
+
+</body>
+</html>
