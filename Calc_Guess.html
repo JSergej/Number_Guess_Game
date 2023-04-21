@@ -14,6 +14,40 @@
 </head>
 <body>
  
+                                     <!-- calculator -->
+
+    <div  class="result">
+          <h1>Calculator</h1>
+    </div>
+    
+    <div> 
+        <hr class="c"> 
+        <h2>Please enter  <span class="coltext"> any number </span>into the following 2 boxes <span class="coltext">select 
+                          Arithmetic action or press CA</span> for reset.</h2>
+                          
+                         
+   <section class="field">
+       <input  id="in1" type="text"> &nbsp;</input>
+       <input  id="in2" type="text"> </input>
+   </section>  
+       
+   </div>  
+    <div class="buttons" > 
+       <button class="btn1" id="add" onclick="addInput()">&plus;</button> 
+       <button class="btn1" id="sub" onclick=" subtractInput()">&minus;</button> 
+       <button  class="btn1" id="mult" onclick="multiplyInput()">&times;</button> 
+       <button  class="btn1" id="mult" onclick="divideInput()">&divide;</button> 
+       <button  class="btn1"  id="reset" onclick="resetInput()">CA</button> 
+           
+   
+   </div>
+   
+    <div  class="result">
+  
+       <h2 id="output" type="text"></h2> 
+    </div>
+
+                                      <!-- Calculator end  -->
 
                           <!-- Number guess game -->                 
     
@@ -43,7 +77,7 @@
       
    </div>
   
-                   <!-- Game end! -->
+                                    <!-- Game end! -->
 
                    <!--Script-->
    <script src="main.js"></script>
